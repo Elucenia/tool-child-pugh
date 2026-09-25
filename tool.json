@@ -1,0 +1,276 @@
+{
+  "tool": {
+    "id": "child-pugh",
+    "title": "Child-Pugh",
+    "short": "Gravidade e prognóstico da cirrose",
+    "desc": "Calcule a classificação de Child-Pugh (A, B ou C) na cirrose: bilirrubina, albumina, INR, ascite e encefalopatia, com risco cirúrgico associado.",
+    "lead": "Classifica a gravidade da cirrose em A, B ou C a partir de três exames e dois achados clínicos. É usada para prognóstico, risco cirúrgico e ajuste de dose de medicamentos.",
+    "spec": [
+      "gastroenterologia",
+      "cirurgia-do-aparelho-digestivo",
+      "clinica-medica",
+      "anestesiologia"
+    ],
+    "tier": 1,
+    "fields": [
+      [
+        "bili",
+        "Bilirrubina total",
+        "radio",
+        {
+          "opts": {
+            "1": "&lt; 2 mg/dL",
+            "2": "2 a 3 mg/dL",
+            "3": "&gt; 3 mg/dL"
+          }
+        }
+      ],
+      [
+        "alb",
+        "Albumina",
+        "radio",
+        {
+          "opts": {
+            "1": "&gt; 3,5 g/dL",
+            "2": "2,8 a 3,5 g/dL",
+            "3": "&lt; 2,8 g/dL"
+          }
+        }
+      ],
+      [
+        "inr",
+        "INR",
+        "radio",
+        {
+          "opts": {
+            "1": "&lt; 1,7",
+            "2": "1,7 a 2,3",
+            "3": "&gt; 2,3"
+          }
+        }
+      ],
+      [
+        "ascite",
+        "Ascite",
+        "radio",
+        {
+          "opts": {
+            "1": "Ausente",
+            "2": "Leve ou controlada com diurético",
+            "3": "Moderada a grave ou refratária"
+          }
+        }
+      ],
+      [
+        "ence",
+        "Encefalopatia hepática",
+        "radio",
+        {
+          "opts": {
+            "1": "Ausente",
+            "2": "Graus I–II (ou controlada)",
+            "3": "Graus III–IV (ou refratária)"
+          }
+        }
+      ]
+    ],
+    "score": {
+      "label": "Child-Pugh",
+      "unit": "pontos",
+      "bands": [
+        [
+          5,
+          "low",
+          "Classe A (5 a 6 pontos): doença compensada",
+          "Mortalidade cirúrgica abdominal de cerca de 10% (Mansour 1997)."
+        ],
+        [
+          7,
+          "mid",
+          "Classe B (7 a 9 pontos): comprometimento funcional significativo",
+          "Mortalidade cirúrgica abdominal de cerca de 30%; avaliar transplante."
+        ],
+        [
+          10,
+          "high",
+          "Classe C (10 a 15 pontos): doença descompensada",
+          "Mortalidade cirúrgica abdominal de cerca de 82%; evitar cirurgia eletiva e avaliar transplante."
+        ]
+      ]
+    },
+    "formula": "<p>Cada um dos 5 itens vale de 1 a 3 pontos. Total de 5 a 15.</p><p><strong>Classe A:</strong> 5–6 · <strong>Classe B:</strong> 7–9 · <strong>Classe C:</strong> 10–15.</p>",
+    "table": [
+      [
+        "Classe",
+        "Pontos",
+        "Mortalidade após cirurgia abdominal*"
+      ],
+      [
+        "A",
+        "5 a 6",
+        "10%"
+      ],
+      [
+        "B",
+        "7 a 9",
+        "30%"
+      ],
+      [
+        "C",
+        "10 a 15",
+        "82%"
+      ]
+    ],
+    "table_note": "*Série de Mansour et al. (1997), 92 cirróticos operados; a mortalidade das cirurgias de urgência foi bem maior que a das eletivas.",
+    "tips": [
+      "Na colangite biliar primária e na colangite esclerosante, use cortes de bilirrubina maiores: &lt; 4 (1 ponto), 4 a 10 (2) e &gt; 10 mg/dL (3).",
+      "Ascite e encefalopatia são subjetivas e mudam com o tratamento: registre o grau antes das medidas terapêuticas quando possível.",
+      "Anticoagulação com varfarina invalida o item INR; nesses pacientes, o escore superestima a gravidade.",
+      "Para prioridade no transplante, use o MELD-Na / MELD 3.0, mais objetivo e contínuo.",
+      "Muitas bulas de medicamentos definem ajuste de dose pela classe de Child-Pugh: confira antes de prescrever em cirróticos."
+    ],
+    "sources": [
+      [
+        "Pugh RN et al. Transection of the oesophagus for bleeding oesophageal varices. Br J Surg, 1973.",
+        "https://doi.org/10.1002/bjs.1800600817"
+      ],
+      [
+        "Mansour A et al. Abdominal operations in patients with cirrhosis: still a major surgical challenge. Surgery, 1997.",
+        "https://doi.org/10.1016/S0039-6060(97)90080-5"
+      ],
+      [
+        "Durand F, Valla D. Assessment of the prognosis of cirrhosis: Child-Pugh versus MELD. J Hepatol, 2005.",
+        "https://doi.org/10.1016/j.jhep.2004.11.015"
+      ]
+    ],
+    "cases": [
+      [
+        "Tudo normal: 5 pontos, classe A",
+        {
+          "bili": "1",
+          "alb": "1",
+          "inr": "1",
+          "ascite": "1",
+          "ence": "1"
+        },
+        {
+          "score": 5,
+          "level": "low",
+          "verdict": "Classe A"
+        }
+      ],
+      [
+        "Bilirrubina 2–3 e albumina 2,8–3,5: 7 pontos, classe B (limite)",
+        {
+          "bili": "2",
+          "alb": "2",
+          "inr": "1",
+          "ascite": "1",
+          "ence": "1"
+        },
+        {
+          "score": 7,
+          "level": "mid",
+          "verdict": "Classe B"
+        }
+      ],
+      [
+        "Bilirrubina &gt; 3, albumina &lt; 2,8, INR 1,7–2,3, ascite grave, encefalopatia I–II: 13 pontos, classe C",
+        {
+          "bili": "3",
+          "alb": "3",
+          "inr": "2",
+          "ascite": "3",
+          "ence": "2"
+        },
+        {
+          "score": 13,
+          "level": "high",
+          "verdict": "Classe C"
+        }
+      ]
+    ],
+    "batch": "renal-digestivo",
+    "kind": "Escore",
+    "config": {
+      "unit": "pontos",
+      "label": "Child-Pugh",
+      "fields": [
+        [
+          "bili",
+          "radio",
+          0
+        ],
+        [
+          "alb",
+          "radio",
+          0
+        ],
+        [
+          "inr",
+          "radio",
+          0
+        ],
+        [
+          "ascite",
+          "radio",
+          0
+        ],
+        [
+          "ence",
+          "radio",
+          0
+        ]
+      ],
+      "bands": [
+        [
+          5,
+          "low",
+          "Classe A (5 a 6 pontos): doença compensada",
+          "Mortalidade cirúrgica abdominal de cerca de 10% (Mansour 1997)."
+        ],
+        [
+          7,
+          "mid",
+          "Classe B (7 a 9 pontos): comprometimento funcional significativo",
+          "Mortalidade cirúrgica abdominal de cerca de 30%; avaliar transplante."
+        ],
+        [
+          10,
+          "high",
+          "Classe C (10 a 15 pontos): doença descompensada",
+          "Mortalidade cirúrgica abdominal de cerca de 82%; evitar cirurgia eletiva e avaliar transplante."
+        ]
+      ]
+    },
+    "areaId": "renal-digestivo",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/renal-digestivo.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 3,
+      "passed": 3,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/renal-digestivo.php",
+    "sha256": "95087d729438637d36e1a49af04d8de0fe1d9f7876443084443906a9281ef107",
+    "bytes": 109421
+  },
+  "clinicalValidation": "not-performed"
+}

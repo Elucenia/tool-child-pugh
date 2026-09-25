@@ -1,0 +1,71 @@
+[
+  {
+    "label": "Tudo normal: 5 pontos, classe A",
+    "input": {
+      "bili": "1",
+      "alb": "1",
+      "inr": "1",
+      "ascite": "1",
+      "ence": "1"
+    },
+    "expected": {
+      "score": 5,
+      "level": "low",
+      "verdict": "Classe A"
+    },
+    "originalInput": {
+      "bili": "1",
+      "alb": "1",
+      "inr": "1",
+      "ascite": "1",
+      "ence": "1"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Bilirrubina 2–3 e albumina 2,8–3,5: 7 pontos, classe B (limite)",
+    "input": {
+      "bili": "2",
+      "alb": "2",
+      "inr": "1",
+      "ascite": "1",
+      "ence": "1"
+    },
+    "expected": {
+      "score": 7,
+      "level": "mid",
+      "verdict": "Classe B"
+    },
+    "originalInput": {
+      "bili": "2",
+      "alb": "2",
+      "inr": "1",
+      "ascite": "1",
+      "ence": "1"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Bilirrubina &gt; 3, albumina &lt; 2,8, INR 1,7–2,3, ascite grave, encefalopatia I–II: 13 pontos, classe C",
+    "input": {
+      "bili": "3",
+      "alb": "3",
+      "inr": "2",
+      "ascite": "3",
+      "ence": "2"
+    },
+    "expected": {
+      "score": 13,
+      "level": "high",
+      "verdict": "Classe C"
+    },
+    "originalInput": {
+      "bili": "3",
+      "alb": "3",
+      "inr": "2",
+      "ascite": "3",
+      "ence": "2"
+    },
+    "expandedZeroOptions": []
+  }
+]
