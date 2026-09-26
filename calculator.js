@@ -1,11 +1,11 @@
-/* tool-child-pugh · Elucenia · https://github.com/Elucenia/tool-child-pugh
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-child-pugh · ELUCENIA · https://github.com/Elucenia/tool-child-pugh
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"child-pugh","title":"Child-Pugh","fields":[["bili","Bilirrubina total","radio",{"opts":{"1":"&lt; 2 mg/dL","2":"2 a 3 mg/dL","3":"&gt; 3 mg/dL"}}],["alb","Albumina","radio",{"opts":{"1":"&gt; 3,5 g/dL","2":"2,8 a 3,5 g/dL","3":"&lt; 2,8 g/dL"}}],["inr","INR","radio",{"opts":{"1":"&lt; 1,7","2":"1,7 a 2,3","3":"&gt; 2,3"}}],["ascite","Ascite","radio",{"opts":{"1":"Ausente","2":"Leve ou controlada com diurético","3":"Moderada a grave ou refratária"}}],["ence","Encefalopatia hepática","radio",{"opts":{"1":"Ausente","2":"Graus I–II (ou controlada)","3":"Graus III–IV (ou refratária)"}}]],"config":{"unit":"pontos","label":"Child-Pugh","fields":[["bili","radio",0],["alb","radio",0],["inr","radio",0],["ascite","radio",0],["ence","radio",0]],"bands":[[5,"low","Classe A (5 a 6 pontos): doença compensada","Mortalidade cirúrgica abdominal de cerca de 10% (Mansour 1997)."],[7,"mid","Classe B (7 a 9 pontos): comprometimento funcional significativo","Mortalidade cirúrgica abdominal de cerca de 30%; avaliar transplante."],[10,"high","Classe C (10 a 15 pontos): doença descompensada","Mortalidade cirúrgica abdominal de cerca de 82%; evitar cirurgia eletiva e avaliar transplante."]]},"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
