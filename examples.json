@@ -1,6 +1,16 @@
 [
   {
-    "label": "Tudo normal: 5 pontos, classe A",
+    "id": "child-pugh",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Tudo normal: 5 pontos, classe A",
+    "originalInput": {
+      "bili": "1",
+      "alb": "1",
+      "inr": "1",
+      "ascite": "1",
+      "ence": "1"
+    },
     "input": {
       "bili": "1",
       "alb": "1",
@@ -8,22 +18,40 @@
       "ascite": "1",
       "ence": "1"
     },
+    "amendments": [],
     "expected": {
       "score": 5,
       "level": "low",
       "verdict": "Classe A"
     },
+    "recordedResult": {
+      "main": [
+        "5",
+        "pontos"
+      ],
+      "label": "Child-Pugh",
+      "raw": {
+        "score": 5,
+        "class": "A"
+      }
+    },
+    "provenance": {
+      "receiptSha256": "be450b3731f8b30a13e0b36bf1f2f579bce00de325c5622bc3e526235c1c79f7",
+      "scope": "Existing documented synthetic reference and precise source-audit regression baseline; no new independent oracle"
+    }
+  },
+  {
+    "id": "child-pugh",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Bilirrubina 2–3 e albumina 2,8–3,5: 7 pontos, classe B (limite)",
     "originalInput": {
-      "bili": "1",
-      "alb": "1",
+      "bili": "2",
+      "alb": "2",
       "inr": "1",
       "ascite": "1",
       "ence": "1"
     },
-    "expandedZeroOptions": []
-  },
-  {
-    "label": "Bilirrubina 2–3 e albumina 2,8–3,5: 7 pontos, classe B (limite)",
     "input": {
       "bili": "2",
       "alb": "2",
@@ -31,22 +59,40 @@
       "ascite": "1",
       "ence": "1"
     },
+    "amendments": [],
     "expected": {
       "score": 7,
       "level": "mid",
       "verdict": "Classe B"
     },
-    "originalInput": {
-      "bili": "2",
-      "alb": "2",
-      "inr": "1",
-      "ascite": "1",
-      "ence": "1"
+    "recordedResult": {
+      "main": [
+        "7",
+        "pontos"
+      ],
+      "label": "Child-Pugh",
+      "raw": {
+        "score": 7,
+        "class": "B"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "receiptSha256": "be450b3731f8b30a13e0b36bf1f2f579bce00de325c5622bc3e526235c1c79f7",
+      "scope": "Existing documented synthetic reference and precise source-audit regression baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Bilirrubina &gt; 3, albumina &lt; 2,8, INR 1,7–2,3, ascite grave, encefalopatia I–II: 13 pontos, classe C",
+    "id": "child-pugh",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "Bilirrubina &gt; 3, albumina &lt; 2,8, INR 1,7–2,3, ascite grave, encefalopatia I–II: 13 pontos, classe C",
+    "originalInput": {
+      "bili": "3",
+      "alb": "3",
+      "inr": "2",
+      "ascite": "3",
+      "ence": "2"
+    },
     "input": {
       "bili": "3",
       "alb": "3",
@@ -54,18 +100,26 @@
       "ascite": "3",
       "ence": "2"
     },
+    "amendments": [],
     "expected": {
       "score": 13,
       "level": "high",
       "verdict": "Classe C"
     },
-    "originalInput": {
-      "bili": "3",
-      "alb": "3",
-      "inr": "2",
-      "ascite": "3",
-      "ence": "2"
+    "recordedResult": {
+      "main": [
+        "13",
+        "pontos"
+      ],
+      "label": "Child-Pugh",
+      "raw": {
+        "score": 13,
+        "class": "C"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "receiptSha256": "be450b3731f8b30a13e0b36bf1f2f579bce00de325c5622bc3e526235c1c79f7",
+      "scope": "Existing documented synthetic reference and precise source-audit regression baseline; no new independent oracle"
+    }
   }
 ]

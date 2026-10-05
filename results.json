@@ -1,0 +1,363 @@
+{
+  "at": "2026-10-05T15:24:35.220Z",
+  "id": "child-pugh",
+  "engine": {
+    "file": "apps/website/private/tool-code/child-pugh/calculator.js",
+    "bytes": 5217,
+    "sha256": "9dab34a4ea66d0c9b869c309c83248737ed0afcbb465c9eef2d15842a78df914"
+  },
+  "sourceParity": "Node current source / per-tool browser VM outputs match",
+  "cases": [
+    {
+      "id": "child-pugh",
+      "index": 0,
+      "name": "Tudo normal: 5 pontos, classe A",
+      "input": {
+        "bili": "1",
+        "alb": "1",
+        "inr": "1",
+        "ascite": "1",
+        "ence": "1"
+      },
+      "expected": {
+        "score": 5,
+        "level": "low",
+        "verdict": "Classe A"
+      },
+      "obtained": {
+        "id": "child-pugh",
+        "main": [
+          "5",
+          "pontos"
+        ],
+        "label": "Child-Pugh",
+        "raw": {
+          "score": 5,
+          "class": "A"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "browserVm": {
+        "id": "child-pugh",
+        "main": [
+          "5",
+          "pontos"
+        ],
+        "label": "Child-Pugh",
+        "raw": {
+          "score": 5,
+          "class": "A"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.score",
+          "expected": 5,
+          "obtained": 5,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.score",
+          "expected": 5,
+          "obtained": 5,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.class",
+          "expected": "A",
+          "obtained": "A",
+          "scope": "Existing source-audit transport regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "5",
+          "obtained": "5",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "pontos",
+          "obtained": "pontos",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "child-pugh",
+      "index": 1,
+      "name": "Bilirrubina 2–3 e albumina 2,8–3,5: 7 pontos, classe B (limite)",
+      "input": {
+        "bili": "2",
+        "alb": "2",
+        "inr": "1",
+        "ascite": "1",
+        "ence": "1"
+      },
+      "expected": {
+        "score": 7,
+        "level": "mid",
+        "verdict": "Classe B"
+      },
+      "obtained": {
+        "id": "child-pugh",
+        "main": [
+          "7",
+          "pontos"
+        ],
+        "label": "Child-Pugh",
+        "raw": {
+          "score": 7,
+          "class": "B"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "browserVm": {
+        "id": "child-pugh",
+        "main": [
+          "7",
+          "pontos"
+        ],
+        "label": "Child-Pugh",
+        "raw": {
+          "score": 7,
+          "class": "B"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.score",
+          "expected": 7,
+          "obtained": 7,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.score",
+          "expected": 7,
+          "obtained": 7,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.class",
+          "expected": "B",
+          "obtained": "B",
+          "scope": "Existing source-audit transport regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "7",
+          "obtained": "7",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "pontos",
+          "obtained": "pontos",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "child-pugh",
+      "index": 2,
+      "name": "Bilirrubina &gt; 3, albumina &lt; 2,8, INR 1,7–2,3, ascite grave, encefalopatia I–II: 13 pontos, classe C",
+      "input": {
+        "bili": "3",
+        "alb": "3",
+        "inr": "2",
+        "ascite": "3",
+        "ence": "2"
+      },
+      "expected": {
+        "score": 13,
+        "level": "high",
+        "verdict": "Classe C"
+      },
+      "obtained": {
+        "id": "child-pugh",
+        "main": [
+          "13",
+          "pontos"
+        ],
+        "label": "Child-Pugh",
+        "raw": {
+          "score": 13,
+          "class": "C"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "browserVm": {
+        "id": "child-pugh",
+        "main": [
+          "13",
+          "pontos"
+        ],
+        "label": "Child-Pugh",
+        "raw": {
+          "score": 13,
+          "class": "C"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.score",
+          "expected": 13,
+          "obtained": 13,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.score",
+          "expected": 13,
+          "obtained": 13,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.class",
+          "expected": "C",
+          "obtained": "C",
+          "scope": "Existing source-audit transport regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "13",
+          "obtained": "13",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "pontos",
+          "obtained": "pontos",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    }
+  ],
+  "summary": {
+    "cases": 3,
+    "passed": 3,
+    "failed": 0,
+    "checks": 24
+  },
+  "newIndependentOracle": false,
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false
+}
