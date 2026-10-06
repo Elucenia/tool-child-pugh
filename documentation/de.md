@@ -99,3 +99,28 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Klasse A (5 bis 6 Punkte): kompensierte Erkrankung
+
+Abdominale Operationsmortalität von etwa 10 % (Mansour 1997).
+
+
+### 2
+
+Klasse B (7 bis 9 Punkte): deutliche funktionelle Beeinträchtigung
+
+Abdominale Operationsmortalität von etwa 30 %; Transplantation prüfen.
+
+
+### 3
+
+Klasse C (10 bis 15 Punkte): dekompensierte Erkrankung
+
+Abdominale Operationsmortalität von etwa 82 %; elektive Operation vermeiden und Transplantation prüfen.
+

@@ -99,3 +99,28 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Classe A (5 a 6 punti): malattia compensata
+
+Mortalità chirurgica addominale di circa il 10% (Mansour 1997).
+
+
+### 2
+
+Classe B (7 a 9 punti): compromissione funzionale significativa
+
+Mortalità chirurgica addominale di circa il 30%; valutare il trapianto.
+
+
+### 3
+
+Classe C (10 a 15 punti): malattia scompensata
+
+Mortalità chirurgica addominale di circa l’82%; evitare la chirurgia elettiva e valutare il trapianto.
+

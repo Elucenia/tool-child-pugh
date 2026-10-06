@@ -1,0 +1,184 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "child-pugh",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "6063a6cacdb7e4db15f4946ed3b8db55d0791b57",
+    "oldEngineSha256": "9dab34a4ea66d0c9b869c309c83248737ed0afcbb465c9eef2d15842a78df914",
+    "currentEngineSha256": "cab58042478922ff804bf79c6d96bfc7f672a33f63501b311545c906fdfa5405"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Tudo normal: 5 pontos, classe A",
+      "input": {
+        "bili": "1",
+        "alb": "1",
+        "inr": "1",
+        "ascite": "1",
+        "ence": "1"
+      },
+      "publicOutput": {
+        "id": "child-pugh",
+        "main": [
+          "5",
+          "pontos"
+        ],
+        "label": "Child-Pugh",
+        "raw": {
+          "score": 5,
+          "class": "A"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 5,
+        "level": "low",
+        "verdict": "Classe A"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "5",
+          "pontos"
+        ],
+        "label": "Child-Pugh",
+        "level": "low",
+        "verdict": "Classe A (5 a 6 pontos): doença compensada",
+        "note": "Mortalidade cirúrgica abdominal de cerca de 10% (Mansour 1997).",
+        "raw": {
+          "score": 5,
+          "class": "A"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Bilirrubina 2–3 e albumina 2,8–3,5: 7 pontos, classe B (limite)",
+      "input": {
+        "bili": "2",
+        "alb": "2",
+        "inr": "1",
+        "ascite": "1",
+        "ence": "1"
+      },
+      "publicOutput": {
+        "id": "child-pugh",
+        "main": [
+          "7",
+          "pontos"
+        ],
+        "label": "Child-Pugh",
+        "raw": {
+          "score": 7,
+          "class": "B"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 7,
+        "level": "mid",
+        "verdict": "Classe B"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "7",
+          "pontos"
+        ],
+        "label": "Child-Pugh",
+        "level": "mid",
+        "verdict": "Classe B (7 a 9 pontos): comprometimento funcional significativo",
+        "note": "Mortalidade cirúrgica abdominal de cerca de 30%; avaliar transplante.",
+        "raw": {
+          "score": 7,
+          "class": "B"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Bilirrubina &gt; 3, albumina &lt; 2,8, INR 1,7–2,3, ascite grave, encefalopatia I–II: 13 pontos, classe C",
+      "input": {
+        "bili": "3",
+        "alb": "3",
+        "inr": "2",
+        "ascite": "3",
+        "ence": "2"
+      },
+      "publicOutput": {
+        "id": "child-pugh",
+        "main": [
+          "13",
+          "pontos"
+        ],
+        "label": "Child-Pugh",
+        "raw": {
+          "score": 13,
+          "class": "C"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 13,
+        "level": "high",
+        "verdict": "Classe C"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "13",
+          "pontos"
+        ],
+        "label": "Child-Pugh",
+        "level": "high",
+        "verdict": "Classe C (10 a 15 pontos): doença descompensada",
+        "note": "Mortalidade cirúrgica abdominal de cerca de 82%; evitar cirurgia eletiva e avaliar transplante.",
+        "raw": {
+          "score": 13,
+          "class": "C"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    }
+  ]
+}

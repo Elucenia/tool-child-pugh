@@ -1,0 +1,240 @@
+{
+  "schema": "elucenia-current-per-tool-local-publication-candidate",
+  "id": "child-pugh",
+  "repository": "Elucenia/tool-child-pugh",
+  "parentCommitSha": "67b508257c705fba7a16ae075af82232a04d2ee8",
+  "baseTreeSha": "f5b47aa55d1bb998cd9826ec99acae350fec2b2b",
+  "protectedFiles": {
+    "LICENSE": {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    "NOTICE": {
+      "path": "NOTICE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c48087134298cc19055d1bf4976335d53122bfe",
+      "size": 1593,
+      "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/4c48087134298cc19055d1bf4976335d53122bfe"
+    },
+    "AUTHORSHIP.md": {
+      "path": "AUTHORSHIP.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ecf2b2f7d3b5dd5713a398280326b0c221ee4e4",
+      "size": 3233,
+      "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/7ecf2b2f7d3b5dd5713a398280326b0c221ee4e4"
+    },
+    "CITATION.cff": {
+      "path": "CITATION.cff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2aa45f0319e4ad1739e90bb2f804b5770ea289ce",
+      "size": 855,
+      "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/2aa45f0319e4ad1739e90bb2f804b5770ea289ce"
+    },
+    "SECURITY.md": {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44eafb996937916cbe53e24fa9c5208fe03d5767",
+      "size": 894,
+      "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/44eafb996937916cbe53e24fa9c5208fe03d5767"
+    },
+    "CONTRIBUTING.md": {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbf35c306b953c3e65ca1ca23ca01c991c4014d8",
+      "size": 1461,
+      "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/fbf35c306b953c3e65ca1ca23ca01c991c4014d8"
+    },
+    ".github/workflows/ci.yml": {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d3f2f34aa2e948d30695d82d64361467d9e6485",
+      "size": 279,
+      "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/7d3f2f34aa2e948d30695d82d64361467d9e6485"
+    },
+    ".gitattributes": {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6313b56c57848efce05faa7aa7e901ccfc2886ea",
+      "size": 19,
+      "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/6313b56c57848efce05faa7aa7e901ccfc2886ea"
+    },
+    ".gitignore": {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e375bd25cf1a574310ac4c7af0299884556e81e1",
+      "size": 42,
+      "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/e375bd25cf1a574310ac4c7af0299884556e81e1"
+    }
+  },
+  "oldCandidate": {
+    "manifest": {
+      "file": "reports/review-20261003/github-publication-candidate-final36-v4.json",
+      "bytes": 6823260,
+      "sha256": "a3c528b12d7b5416fa0e62dda9e5106864bae7ff86710fa765934b5a3069e16c"
+    },
+    "rowId": "child-pugh",
+    "publicationProvenance": {
+      "file": "reports/review-20261003/github-publication-candidates-final36-v4/child-pugh/publication-provenance.json",
+      "bytes": 6292,
+      "sha256": "9baec04835515d71f860ddcbc7bc46305fb6a5e82440e7a49133b49a56e36c12"
+    },
+    "integrationProvenance": {
+      "file": "reports/review-20261003/github-publication-candidates-final36-v4/child-pugh/provenance.json",
+      "bytes": 27163,
+      "sha256": "0eb91d0429c9ad0f05fc2e81911064b07a87b63b10c28e7b338cdff9a7d10de6"
+    }
+  },
+  "currentSource": {
+    "file": "apps/website/private/tool-code/child-pugh/calculator.js",
+    "bytes": 5217,
+    "sha256": "9dab34a4ea66d0c9b869c309c83248737ed0afcbb465c9eef2d15842a78df914"
+  },
+  "sourceToolSha256": "bc8e6112916e4cb40b363eaa4c30423b33a59eb51baaf3a92b72e86f2460652a",
+  "methodVersion": "Child Pugh/Pugh 1973:5 itens 1–3, classes A 5–6/B 7–9/C 10–15",
+  "implementationVersion": "child-pugh@native-2026-10-03+9dab34a4ea66",
+  "browserBundleSha256": "8dbbd9f5648a59cf31c08b2faa129469e636cafb27d6e1b4e5692a83aa2657e6",
+  "graph": {
+    "entry": "tool-code/child-pugh/calculator.js",
+    "modules": [
+      {
+        "file": "tool-code/child-pugh/calculator.js",
+        "bytes": 5217,
+        "sha256": "9dab34a4ea66d0c9b869c309c83248737ed0afcbb465c9eef2d15842a78df914"
+      }
+    ],
+    "transforms": []
+  },
+  "currentActualHttpEvidence": {
+    "file": "reports/review-20261005-completion/deploy-lock/r5-all-calculators-http-results.json",
+    "bytes": 7105457,
+    "sha256": "be450b3731f8b30a13e0b36bf1f2f579bce00de325c5622bc3e526235c1c79f7"
+  },
+  "tests": {
+    "cases": 3,
+    "sourceNodeParityPassed": true,
+    "browserVmParityPassed": true,
+    "independentOracleDerived": false,
+    "actualBrowserDOMVerified": false
+  },
+  "rights": {
+    "historicalPayloadLicenseDeclaration": "Apache-2.0",
+    "currentIntegrationPackageLicenseDeclaration": "MIT",
+    "currentLegalFiles": [
+      {
+        "file": "apps/command-center/private/tool-code/child-pugh/LICENSE",
+        "bytes": 1229,
+        "sha256": "51c010d285894558695812b9883d9c9ae7c9c89526f43597917e778965e65d93"
+      },
+      {
+        "file": "apps/command-center/private/tool-code/child-pugh/NOTICE.md",
+        "bytes": 1183,
+        "sha256": "b7d5eaa1074d1673caf885ac49b38e9b54b2c6086b45072eacf7b3fe139d8a6d"
+      }
+    ],
+    "protectedFilesPreservedFromOldPayload": [],
+    "protectedRemoteAttributionReferences": {
+      "LICENSE": {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+        "size": 11358,
+        "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+      },
+      "NOTICE": {
+        "path": "NOTICE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4c48087134298cc19055d1bf4976335d53122bfe",
+        "size": 1593,
+        "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/4c48087134298cc19055d1bf4976335d53122bfe"
+      },
+      "AUTHORSHIP.md": {
+        "path": "AUTHORSHIP.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7ecf2b2f7d3b5dd5713a398280326b0c221ee4e4",
+        "size": 3233,
+        "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/7ecf2b2f7d3b5dd5713a398280326b0c221ee4e4"
+      },
+      "CITATION.cff": {
+        "path": "CITATION.cff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2aa45f0319e4ad1739e90bb2f804b5770ea289ce",
+        "size": 855,
+        "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/2aa45f0319e4ad1739e90bb2f804b5770ea289ce"
+      },
+      "SECURITY.md": {
+        "path": "SECURITY.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44eafb996937916cbe53e24fa9c5208fe03d5767",
+        "size": 894,
+        "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/44eafb996937916cbe53e24fa9c5208fe03d5767"
+      },
+      "CONTRIBUTING.md": {
+        "path": "CONTRIBUTING.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fbf35c306b953c3e65ca1ca23ca01c991c4014d8",
+        "size": 1461,
+        "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/fbf35c306b953c3e65ca1ca23ca01c991c4014d8"
+      },
+      ".github/workflows/ci.yml": {
+        "path": ".github/workflows/ci.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d3f2f34aa2e948d30695d82d64361467d9e6485",
+        "size": 279,
+        "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/7d3f2f34aa2e948d30695d82d64361467d9e6485"
+      },
+      ".gitattributes": {
+        "path": ".gitattributes",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6313b56c57848efce05faa7aa7e901ccfc2886ea",
+        "size": 19,
+        "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/6313b56c57848efce05faa7aa7e901ccfc2886ea"
+      },
+      ".gitignore": {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e375bd25cf1a574310ac4c7af0299884556e81e1",
+        "size": 42,
+        "url": "https://api.github.com/repos/Elucenia/tool-child-pugh/git/blobs/e375bd25cf1a574310ac4c7af0299884556e81e1"
+      }
+    },
+    "sourceSpecificEvidence": {
+      "sourceSpecificStatus": "not-approved-by-this-consolidation",
+      "sourceSpecificEvidence": null,
+      "wholeInstrumentApproval": false,
+      "oldCandidateInstrumentRightsApproval": "not-performed"
+    },
+    "scope": "Historical Apache declaration and current MIT integration notices retained with exact sources; no relicensing or instrument approval inferred",
+    "reviewRequired": true,
+    "divergences": [
+      "Historical payload and current package declare different license labels; scope/authorship mapping must be reviewed before distribution"
+    ],
+    "wholeInstrumentApproval": false
+  },
+  "appWrites": false,
+  "externalMutations": false,
+  "publicationPerformed": false,
+  "externalPublicationReady": false,
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false
+}

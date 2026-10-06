@@ -99,3 +99,28 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Classe A (5 à 6 points) : maladie compensée
+
+Mortalité chirurgicale abdominale d’environ 10 % (Mansour 1997).
+
+
+### 2
+
+Classe B (7 à 9 points) : atteinte fonctionnelle significative
+
+Mortalité chirurgicale abdominale d’environ 30 % ; évaluer la transplantation.
+
+
+### 3
+
+Classe C (10 à 15 points) : maladie décompensée
+
+Mortalité chirurgicale abdominale d’environ 82 % ; éviter la chirurgie élective et évaluer la transplantation.
+

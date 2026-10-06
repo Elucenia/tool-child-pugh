@@ -1,0 +1,537 @@
+{
+  "id": "child-pugh",
+  "implementationVersion": "child-pugh@native-2026-10-05+cab580424789",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Tudo normal: 5 pontos, classe A",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Classe A (5 a 6 pontos): doença compensada",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Mortalidade cirúrgica abdominal de cerca de 10% (Mansour 1997).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bilirrubina 2–3 e albumina 2,8–3,5: 7 pontos, classe B (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Classe B (7 a 9 pontos): comprometimento funcional significativo",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Mortalidade cirúrgica abdominal de cerca de 30%; avaliar transplante.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Bilirrubina &gt; 3, albumina &lt; 2,8, INR 1,7–2,3, ascite grave, encefalopatia I–II: 13 pontos, classe C",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Classe C (10 a 15 pontos): doença descompensada",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Mortalidade cirúrgica abdominal de cerca de 82%; evitar cirurgia eletiva e avaliar transplante.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Tudo normal: 5 pontos, classe A",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Class A (5 to 6 points): compensated disease",
+            "locale": "en",
+            "template": "documented-authored-92e22f917f940d35b1df"
+          },
+          "note": {
+            "text": "Abdominal surgical mortality of about 10% (Mansour 1997).",
+            "locale": "en",
+            "template": "documented-authored-eaecebf3025817f09e6f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bilirrubina 2–3 e albumina 2,8–3,5: 7 pontos, classe B (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Class B (7 to 9 points): significant functional impairment",
+            "locale": "en",
+            "template": "documented-authored-c39d920b41613089a8de"
+          },
+          "note": {
+            "text": "Abdominal surgical mortality of about 30%; assess transplantation.",
+            "locale": "en",
+            "template": "documented-authored-9e0e27edcaf238817882"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Bilirrubina &gt; 3, albumina &lt; 2,8, INR 1,7–2,3, ascite grave, encefalopatia I–II: 13 pontos, classe C",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Class C (10 to 15 points): decompensated disease",
+            "locale": "en",
+            "template": "documented-authored-a6ee5726ce0b2e5938a0"
+          },
+          "note": {
+            "text": "Abdominal surgical mortality of about 82%; avoid elective surgery and assess transplantation.",
+            "locale": "en",
+            "template": "documented-authored-083d73f8280df484e589"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Tudo normal: 5 pontos, classe A",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Clase A (5 a 6 puntos): enfermedad compensada",
+            "locale": "es",
+            "template": "documented-authored-92e22f917f940d35b1df"
+          },
+          "note": {
+            "text": "Mortalidad quirúrgica abdominal de cerca del 10% (Mansour 1997).",
+            "locale": "es",
+            "template": "documented-authored-eaecebf3025817f09e6f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bilirrubina 2–3 e albumina 2,8–3,5: 7 pontos, classe B (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Clase B (7 a 9 puntos): compromiso funcional significativo",
+            "locale": "es",
+            "template": "documented-authored-c39d920b41613089a8de"
+          },
+          "note": {
+            "text": "Mortalidad quirúrgica abdominal de cerca del 30%; evaluar trasplante.",
+            "locale": "es",
+            "template": "documented-authored-9e0e27edcaf238817882"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Bilirrubina &gt; 3, albumina &lt; 2,8, INR 1,7–2,3, ascite grave, encefalopatia I–II: 13 pontos, classe C",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Clase C (10 a 15 puntos): enfermedad descompensada",
+            "locale": "es",
+            "template": "documented-authored-a6ee5726ce0b2e5938a0"
+          },
+          "note": {
+            "text": "Mortalidad quirúrgica abdominal de cerca del 82%; evitar la cirugía electiva y evaluar trasplante.",
+            "locale": "es",
+            "template": "documented-authored-083d73f8280df484e589"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Tudo normal: 5 pontos, classe A",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Classe A (5 à 6 points) : maladie compensée",
+            "locale": "fr",
+            "template": "documented-authored-92e22f917f940d35b1df"
+          },
+          "note": {
+            "text": "Mortalité chirurgicale abdominale d’environ 10 % (Mansour 1997).",
+            "locale": "fr",
+            "template": "documented-authored-eaecebf3025817f09e6f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bilirrubina 2–3 e albumina 2,8–3,5: 7 pontos, classe B (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Classe B (7 à 9 points) : atteinte fonctionnelle significative",
+            "locale": "fr",
+            "template": "documented-authored-c39d920b41613089a8de"
+          },
+          "note": {
+            "text": "Mortalité chirurgicale abdominale d’environ 30 % ; évaluer la transplantation.",
+            "locale": "fr",
+            "template": "documented-authored-9e0e27edcaf238817882"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Bilirrubina &gt; 3, albumina &lt; 2,8, INR 1,7–2,3, ascite grave, encefalopatia I–II: 13 pontos, classe C",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Classe C (10 à 15 points) : maladie décompensée",
+            "locale": "fr",
+            "template": "documented-authored-a6ee5726ce0b2e5938a0"
+          },
+          "note": {
+            "text": "Mortalité chirurgicale abdominale d’environ 82 % ; éviter la chirurgie élective et évaluer la transplantation.",
+            "locale": "fr",
+            "template": "documented-authored-083d73f8280df484e589"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Tudo normal: 5 pontos, classe A",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Klasse A (5 bis 6 Punkte): kompensierte Erkrankung",
+            "locale": "de",
+            "template": "documented-authored-92e22f917f940d35b1df"
+          },
+          "note": {
+            "text": "Abdominale Operationsmortalität von etwa 10 % (Mansour 1997).",
+            "locale": "de",
+            "template": "documented-authored-eaecebf3025817f09e6f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bilirrubina 2–3 e albumina 2,8–3,5: 7 pontos, classe B (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Klasse B (7 bis 9 Punkte): deutliche funktionelle Beeinträchtigung",
+            "locale": "de",
+            "template": "documented-authored-c39d920b41613089a8de"
+          },
+          "note": {
+            "text": "Abdominale Operationsmortalität von etwa 30 %; Transplantation prüfen.",
+            "locale": "de",
+            "template": "documented-authored-9e0e27edcaf238817882"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Bilirrubina &gt; 3, albumina &lt; 2,8, INR 1,7–2,3, ascite grave, encefalopatia I–II: 13 pontos, classe C",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Klasse C (10 bis 15 Punkte): dekompensierte Erkrankung",
+            "locale": "de",
+            "template": "documented-authored-a6ee5726ce0b2e5938a0"
+          },
+          "note": {
+            "text": "Abdominale Operationsmortalität von etwa 82 %; elektive Operation vermeiden und Transplantation prüfen.",
+            "locale": "de",
+            "template": "documented-authored-083d73f8280df484e589"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Tudo normal: 5 pontos, classe A",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Classe A (5 a 6 punti): malattia compensata",
+            "locale": "it",
+            "template": "documented-authored-92e22f917f940d35b1df"
+          },
+          "note": {
+            "text": "Mortalità chirurgica addominale di circa il 10% (Mansour 1997).",
+            "locale": "it",
+            "template": "documented-authored-eaecebf3025817f09e6f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bilirrubina 2–3 e albumina 2,8–3,5: 7 pontos, classe B (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Classe B (7 a 9 punti): compromissione funzionale significativa",
+            "locale": "it",
+            "template": "documented-authored-c39d920b41613089a8de"
+          },
+          "note": {
+            "text": "Mortalità chirurgica addominale di circa il 30%; valutare il trapianto.",
+            "locale": "it",
+            "template": "documented-authored-9e0e27edcaf238817882"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Bilirrubina &gt; 3, albumina &lt; 2,8, INR 1,7–2,3, ascite grave, encefalopatia I–II: 13 pontos, classe C",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Classe C (10 a 15 punti): malattia scompensata",
+            "locale": "it",
+            "template": "documented-authored-a6ee5726ce0b2e5938a0"
+          },
+          "note": {
+            "text": "Mortalità chirurgica addominale di circa l’82%; evitare la chirurgia elettiva e valutare il trapianto.",
+            "locale": "it",
+            "template": "documented-authored-083d73f8280df484e589"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Tudo normal: 5 pontos, classe A",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "الفئة A (5 إلى 6 نقاط): مرض مُعوَّض",
+            "locale": "ar",
+            "template": "documented-authored-92e22f917f940d35b1df"
+          },
+          "note": {
+            "text": "معدل الوفيات الجراحية البطنية حوالي 10% (Mansour 1997).",
+            "locale": "ar",
+            "template": "documented-authored-eaecebf3025817f09e6f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bilirrubina 2–3 e albumina 2,8–3,5: 7 pontos, classe B (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "الفئة B (7 إلى 9 نقاط): قصور وظيفي ملحوظ",
+            "locale": "ar",
+            "template": "documented-authored-c39d920b41613089a8de"
+          },
+          "note": {
+            "text": "معدل الوفيات الجراحية البطنية حوالي 30%؛ تقييم الزرع.",
+            "locale": "ar",
+            "template": "documented-authored-9e0e27edcaf238817882"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Bilirrubina &gt; 3, albumina &lt; 2,8, INR 1,7–2,3, ascite grave, encefalopatia I–II: 13 pontos, classe C",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "الفئة C (10 إلى 15 نقطة): مرض غير مُعوَّض",
+            "locale": "ar",
+            "template": "documented-authored-a6ee5726ce0b2e5938a0"
+          },
+          "note": {
+            "text": "معدل الوفيات الجراحية البطنية حوالي 82%؛ تجنب الجراحة الاختيارية وتقييم الزرع.",
+            "locale": "ar",
+            "template": "documented-authored-083d73f8280df484e589"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Tudo normal: 5 pontos, classe A",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "A 级（5 至 6 分）：代偿性疾病",
+            "locale": "zh",
+            "template": "documented-authored-92e22f917f940d35b1df"
+          },
+          "note": {
+            "text": "腹部手术死亡率约 10%（Mansour 1997）。",
+            "locale": "zh",
+            "template": "documented-authored-eaecebf3025817f09e6f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bilirrubina 2–3 e albumina 2,8–3,5: 7 pontos, classe B (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "B 级（7 至 9 分）：明显功能受损",
+            "locale": "zh",
+            "template": "documented-authored-c39d920b41613089a8de"
+          },
+          "note": {
+            "text": "腹部手术死亡率约 30%；评估移植。",
+            "locale": "zh",
+            "template": "documented-authored-9e0e27edcaf238817882"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Bilirrubina &gt; 3, albumina &lt; 2,8, INR 1,7–2,3, ascite grave, encefalopatia I–II: 13 pontos, classe C",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "C 级（10 至 15 分）：失代偿性疾病",
+            "locale": "zh",
+            "template": "documented-authored-a6ee5726ce0b2e5938a0"
+          },
+          "note": {
+            "text": "腹部手术死亡率约 82%；避免择期手术并评估移植。",
+            "locale": "zh",
+            "template": "documented-authored-083d73f8280df484e589"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Tudo normal: 5 pontos, classe A",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "クラス A（5～6点）：代償性疾患",
+            "locale": "ja",
+            "template": "documented-authored-92e22f917f940d35b1df"
+          },
+          "note": {
+            "text": "腹部手術死亡率は約10%（Mansour 1997）。",
+            "locale": "ja",
+            "template": "documented-authored-eaecebf3025817f09e6f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bilirrubina 2–3 e albumina 2,8–3,5: 7 pontos, classe B (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "クラス B（7～9点）：機能障害が著しい",
+            "locale": "ja",
+            "template": "documented-authored-c39d920b41613089a8de"
+          },
+          "note": {
+            "text": "腹部手術死亡率は約30%で、移植を検討する。",
+            "locale": "ja",
+            "template": "documented-authored-9e0e27edcaf238817882"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Bilirrubina &gt; 3, albumina &lt; 2,8, INR 1,7–2,3, ascite grave, encefalopatia I–II: 13 pontos, classe C",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "クラス C（10～15点）：非代償性疾患",
+            "locale": "ja",
+            "template": "documented-authored-a6ee5726ce0b2e5938a0"
+          },
+          "note": {
+            "text": "腹部手術死亡率は約82%で、待機的手術は避け、移植を検討する。",
+            "locale": "ja",
+            "template": "documented-authored-083d73f8280df484e589"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Tudo normal: 5 pontos, classe A",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "वर्ग A (5 से 6 अंक): क्षतिपूरित रोग",
+            "locale": "hi",
+            "template": "documented-authored-92e22f917f940d35b1df"
+          },
+          "note": {
+            "text": "उदर शल्य-क्रिया मृत्यु-दर लगभग 10% (Mansour 1997)।",
+            "locale": "hi",
+            "template": "documented-authored-eaecebf3025817f09e6f"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bilirrubina 2–3 e albumina 2,8–3,5: 7 pontos, classe B (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "वर्ग B (7 से 9 अंक): महत्वपूर्ण कार्यात्मक हानि",
+            "locale": "hi",
+            "template": "documented-authored-c39d920b41613089a8de"
+          },
+          "note": {
+            "text": "उदर शल्य-क्रिया मृत्यु-दर लगभग 30%; प्रत्यारोपण का मूल्यांकन करें।",
+            "locale": "hi",
+            "template": "documented-authored-9e0e27edcaf238817882"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Bilirrubina &gt; 3, albumina &lt; 2,8, INR 1,7–2,3, ascite grave, encefalopatia I–II: 13 pontos, classe C",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "वर्ग C (10 से 15 अंक): असंयोजित रोग",
+            "locale": "hi",
+            "template": "documented-authored-a6ee5726ce0b2e5938a0"
+          },
+          "note": {
+            "text": "उदर शल्य-क्रिया मृत्यु-दर लगभग 82%; वैकल्पिक सर्जरी से बचें और प्रत्यारोपण का मूल्यांकन करें।",
+            "locale": "hi",
+            "template": "documented-authored-083d73f8280df484e589"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

@@ -99,3 +99,28 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Class A (5 to 6 points): compensated disease
+
+Abdominal surgical mortality of about 10% (Mansour 1997).
+
+
+### 2
+
+Class B (7 to 9 points): significant functional impairment
+
+Abdominal surgical mortality of about 30%; assess transplantation.
+
+
+### 3
+
+Class C (10 to 15 points): decompensated disease
+
+Abdominal surgical mortality of about 82%; avoid elective surgery and assess transplantation.
+
